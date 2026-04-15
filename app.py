@@ -16,7 +16,7 @@ app.title = "Pink Morsel Sales Dashboard"
 app.layout = html.Div(
     className="container",
     children=[
-        html.H1("Pink Morsel Sales Dashboard", className="main-title"),
+        html.H1("Pink Morsel Sales Dashboard", id="app-title", className="main-title"),
 
         html.P(
             "Explore Pink Morsel sales over time and filter by region.",
